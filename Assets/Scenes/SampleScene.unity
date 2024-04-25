@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571328, b: 0.3069218, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -708,6 +708,128 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e18d9af63709d27b3b180892b4ad2500, type: 3}
+--- !u!1001 &281547587911153957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2489526719647416837, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_Name
+      value: Red Mage
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.68978417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7240151
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 267.226
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067808453510145998, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144679985606274931, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+      propertyPath: hammerTimeState.hammer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e74162af9639cb44b623efb68db576f, type: 3}
+--- !u!1001 &1074717903977154281
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1408824840271987132, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: hammerTimeState.hammer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6002075
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7998443
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226937637130947667, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024870793213876327, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
+      propertyPath: m_Name
+      value: Blue Mage
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd20fa3ff17ab424e8298f0f79ff0990, type: 3}
 --- !u!1001 &1487232325584741035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1014,3 +1136,5 @@ SceneRoots:
   - {fileID: 1933011510}
   - {fileID: 4884056384420822966}
   - {fileID: 4203304329639877096}
+  - {fileID: 1074717903977154281}
+  - {fileID: 281547587911153957}
