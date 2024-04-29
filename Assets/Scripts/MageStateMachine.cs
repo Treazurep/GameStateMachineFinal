@@ -5,14 +5,14 @@ using SuperPupSystems.StateMachine;
 
 public class MageStateMachine : SimpleStateMachine
 {
-   public IdleState idlestate;
-   public ChaseState chasestate;
-   public ScorchingFireState scorchingFireState;
+    public IdleState idleState;
+    public ChaseState chaseState;
+    public ScorchingFireState scorchingFireState;
     void Awake()
     {
         states.Add(idleState);
-        states.Add(chaseState);
-        stats.Add(scorchingFireState);
+        //states.Add(chaseState);
+        states.Add(scorchingFireState);
 
         ChangeState(nameof(idleState));
     }
