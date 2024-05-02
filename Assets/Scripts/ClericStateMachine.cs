@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using SuperPupSystems.StateMachine;
-public class ClericStateMachine : MonoBehaviour
+public class ClericStateMachine : SimpleStateMachine
 {
     public IdleState idleState;
     public ChaseState chaseState;
@@ -11,7 +11,11 @@ public class ClericStateMachine : MonoBehaviour
 
     void Awake()
     {
-        //states.Add(idleState);
+        states.Add(idleState);
+        //states.Add(chaseState);
+        states.Add(healingState);
+
+        ChangeState(nameof(idleState));
 
     }
 
