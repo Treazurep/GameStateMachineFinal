@@ -9,7 +9,7 @@ public class ScorchingFireState : SimpleState
 {
     public GameObject magicObject;
     public GameObject magicBullet;
-
+    public GameObject magicWand;
     public float cooldown = 1.0f;
     private Vector3 targetRotation;
     private Vector3 beginningRotation;
@@ -20,12 +20,12 @@ public class ScorchingFireState : SimpleState
     {
         time = 0.0f;
         
-
-
         if (magicObject == false)
             return;
-        
+    
         GameObject.Instantiate(magicBullet, magicObject.transform.position, magicObject.transform.rotation);
+        magicWand.GetComponent<Animator>().Play("MagicWand");
+        
     }
 
     // Update is called once per frame

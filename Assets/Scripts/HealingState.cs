@@ -25,7 +25,7 @@ public class HealingState : SimpleState
         healingObject = stateMachine.gameObject;
         targetingSystem = healingObject.GetComponent<TargetingSystem>();
 
-        target = targetingSystem.FindTarget();
+        target = targetingSystem.FindTargetToHeal();
 
         if (target == false)
         {
@@ -38,12 +38,7 @@ public class HealingState : SimpleState
         {
             health.Heal(10);
         }
-
-       
-        //GameObject.Instantiate(magicBullet, magicObject.transform.position, magicObject.transform.rotation);
         
-        
-
     }
 
     // Update is called once per frame

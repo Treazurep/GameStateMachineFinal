@@ -5,6 +5,8 @@ using UnityEngine;
 public class MagicBall : MonoBehaviour
 {
     private GameObject target;
+    public ParticleSystem particleSystem;
+
     void Start()
     {
         // If TargetingSystem is found call FindTarget
@@ -12,6 +14,7 @@ public class MagicBall : MonoBehaviour
 
         if (target)
             gameObject.transform.LookAt(target.transform);
+        particleSystem.Play();
     }
 
     void Update()

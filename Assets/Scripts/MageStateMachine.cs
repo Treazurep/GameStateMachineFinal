@@ -11,7 +11,7 @@ public class MageStateMachine : SimpleStateMachine
     void Awake()
     {
         states.Add(idleState);
-        //states.Add(chaseState);
+        states.Add(chaseState);
         states.Add(scorchingFireState);
 
         ChangeState(nameof(idleState));

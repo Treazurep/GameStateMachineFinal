@@ -10,9 +10,9 @@ public class ClericStateMachine : SimpleStateMachine
 
 
     void Awake()
-    {
+    {   
+        states.Add(chaseState);
         states.Add(idleState);
-        //states.Add(chaseState);
         states.Add(healingState);
 
         ChangeState(nameof(idleState));
